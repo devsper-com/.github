@@ -11,8 +11,7 @@
 
 <p align="center">
   <a href="https://devsper.com">devsper.com</a> ·
-  <a href="https://docs.devsper.com">docs</a> ·
-  <a href="https://registry.devsper.com">registry</a>
+  <a href="https://docs.devsper.com">docs</a>
 </p>
 
 ---
@@ -58,6 +57,5 @@ Complete in 12.4s · $0.08 · 5 agents
 
 <p align="center">
   <a href="https://docs.devsper.com/getting-started/quickstart">quickstart</a> ·
-  <a href="https://docs.devsper.com/plugins/publishing">publish a plugin</a> ·
-  <a href="https://registry.devsper.com">browse the registry</a>
+  <a href="https://docs.devsper.com/docs/plugins/publishing">publish a plugin</a>
 </p>
