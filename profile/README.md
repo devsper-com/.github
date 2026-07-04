@@ -1,61 +1,111 @@
-<!-- Profile readme for devsper-com -->
+<!-- Profile README for devsper -->
+
 <p align="center">
-  <img src="https://github.com/devsper-com.png" alt="devsper" width="120" style="border-radius: 50%;" />
+  <img src="https://github.com/devsper-com.png" width="120" alt="Devsper" />
 </p>
 
-<h1 align="center">devsper</h1>
+<h1 align="center">Devsper</h1>
 
 <p align="center">
-  Distributed AI swarm runtime for complex developer tasks.
+  <strong>Describe the outcome. Devsper handles the execution.</strong>
 </p>
 
 <p align="center">
-  <a href="https://devsper.com">devsper.com</a> ·
-  <a href="https://docs.devsper.com">docs</a>
+  Autonomous AI workflows across <strong>175+ integrations</strong>.
+</p>
+
+<p align="center">
+  <a href="https://devsper.com">Website</a> ·
+  <a href="https://docs.devsper.com">Documentation</a> ·
+  <a href="https://devsper.com/pricing">Pricing</a>
 </p>
 
 ---
 
-**devsper** turns any task into a DAG of specialized AI agents — planning, executing, and synthesizing in parallel. Built for developers who need more than a chatbot.
-```bash
-pip install devsper
-devsper run "Research the top AI papers this week and draft a newsletter"
-```
-```
-⣾ Planning... spawning 5 agents
-✓ research_agent    found 847 papers          2.1s
-✓ filter_agent      shortlisted top 5         1.8s
-✓ summarizer_1      GPT-4o summaries done     3.2s
-✓ summarizer_2      Claude summaries done     2.9s
-✓ writer_agent      newsletter.md written     4.1s
+## What is Devsper?
 
-Complete in 12.4s · $0.08 · 5 agents
+Devsper turns plain English into production workflows.
+
+Instead of wiring APIs, writing automation code, or managing orchestration logic, simply describe **what** should happen. Devsper determines **how** to make it happen.
+
+> *"If a high-value customer reports a bug on GitHub, notify Slack, create a Notion incident, check their subscription, and schedule a follow-up."*
+
+Becomes a live workflow in seconds.
+
+---
+
+## Example
+
+```text
+You:
+"If a customer cancels Stripe but has an open support ticket,
+notify Customer Success, summarize the conversation,
+and schedule a follow-up in three days."
+```
+
+```
+✓ Watches Stripe events
+✓ Checks Zendesk
+✓ Summarizes ticket history
+✓ Creates Slack notification
+✓ Schedules follow-up
+✓ Deploys workflow
+
+Built in 1.2s · Live
 ```
 
 ---
 
-### repos
+## Features
 
-| repo | description |
-|------|-------------|
-| [devsper-com/runtime](https://github.com/devsper-com/runtime) | Python runtime + Rust worker — the OSS core |
-| [devsper-com/registry](https://github.com/devsper-com/registry) | Plugin registry — PyPI-compatible, self-hostable |
-| [devsper-com/platform](https://github.com/devsper-com/platform) | Hosted platform — managed swarms, projects, nodes |
+- 🗣️ **Natural Language First**
+  - Describe outcomes instead of building workflows.
+
+- 🤖 **Autonomous Orchestration**
+  - Devsper plans execution, handles branching, retries, and changing conditions automatically.
+
+- 🔌 **175+ Integrations**
+  - Connect GitHub, Slack, Gmail, Notion, Stripe, Salesforce, Discord, HubSpot, and more.
+
+- ⚡ **Real-Time Execution**
+  - Trigger workflows instantly with secure webhooks and live events.
+
+- 🔍 **Full Observability**
+  - Inspect every execution, decision, and action.
+
+- 🔒 **Enterprise Security**
+  - Encrypted credentials, scoped permissions, auditability, and enterprise-ready architecture.
 
 ---
 
-### what's inside
+## Integrations
 
-- **DAG execution** — tasks run in parallel where possible, in order where required
-- **Persistent memory** — agents remember across runs, vector search over past context
-- **Plugin ecosystem** — extend with tools from the registry or build your own
-- **Self-healing** — failed tasks are diagnosed and retried with a different strategy
-- **Distributed** — scale across nodes with the Rust worker and Redis bus
-- **Run intelligence** — cost tracking, critical path analysis, bottleneck detection
+GitHub • Slack • Gmail • Notion • Stripe • Salesforce • HubSpot • Jira • Asana • Airtable • Discord • Zoom • Google Drive • Google Calendar • Dropbox • Trello • Typeform • Mailchimp • Zendesk
+
+**175+ integrations and growing.**
+
+---
+
+## Philosophy
+
+Traditional automation asks you to build workflows.
+
+Devsper asks one question:
+
+> **What outcome do you want?**
+
+From there, it plans, connects, executes, adapts, and monitors everything automatically.
+
+Less plumbing.
+
+More shipping.
 
 ---
 
 <p align="center">
-  <a href="https://docs.devsper.com/getting-started/quickstart">quickstart</a> ·
-  <a href="https://docs.devsper.com/docs/plugins/publishing">publish a plugin</a>
+
+### Stop building.<br/>Start describing.
+
+<a href="https://devsper.com">Get Started →</a>
+
 </p>
